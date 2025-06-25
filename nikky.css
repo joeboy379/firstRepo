@@ -1,0 +1,298 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #B22222;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-logo .logo {
+  height: 30px;
+  width: auto;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #DCDCDC;
+  font-weight: bold;
+}
+
+.navbar-links a:hover {
+  color: #FFD700;
+}
+
+.navbar-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.search-icon {
+  font-size: 16px;
+  color: #555;
+  margin-right: 5px;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 14px;
+}
+
+.icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #555;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: auto;
+    height: 70%;
+    background-color: #555;
+}
+
+.pic1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.let{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.word{
+    font-size: 16px;
+}
+
+.shop{
+    height: 20%;
+    border-radius: 5px;
+}
+
+.container{
+    width: auto;
+    height: 70%;
+    display: flex;
+    padding: 10px;
+}
+
+.pic2{
+   display: flex;
+   width: 100%;
+   justify-content: space-around;
+}
+
+.oneSec{
+    width: 30%;
+    height: 100%;
+    background-color: lightcyan;
+    display: flex;
+    align-items: flex-end;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+.women{
+    border-radius: 6px;
+    height: 30px;
+    width: 80px;
+}
+
+.twoSec{
+    width: 30%;
+    height: 100%;
+    background-color: lightcoral;
+    display: flex;
+    align-items: flex-end;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+.men{
+   border-radius: 6px;
+    height: 30px;
+    width: 80px; 
+}
+
+.threeSec{
+    width: 30%;
+    background-color: lightblue;
+    display: flex;
+    align-items: flex-end;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+.kids{
+    border-radius: 6px;
+    height: 30px;
+    width: 80px;
+}
+
+.ano-container{
+    width: auto;
+    height: 70%;
+    display: flex;
+    padding: 10px;
+}
+
+.holder{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.shox{
+    width: 47%;
+    height: 100%;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+.class{
+    border-radius: 6px;
+    height: 30px;
+    width: 80px;
+}
+
+.nike{
+    width: 47%;
+    height: 100%;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+.store{
+    border-radius: 6px;
+    height: 30px;
+    width: 80px;
+}
+
+.num-container{
+    width: auto;
+    height: 70%;
+    display: flex;
+    padding: 10px;
+}
+
+.hold{
+     display: flex;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.shoes{
+    width: 47%;
+    height: 100%;
+    background-color: #aaa;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+.butt{
+    border-radius: 6px;
+    height: 30px;
+    width: 80px;
+}
+
+.slip{
+    width: 47%;
+    height: 100%;
+    background-color: #aaa;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+.shot{
+    border-radius: 6px;
+    height: 30px;
+    width: 80px;
+}
+
+.second{
+    width: auto;
+    height: 80%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.alter{
+    width: 95%;
+    height: 100%;
+    background-color: #aaa;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.style{
+    color: white;
+    font-size: 15px;
+}
+
+h6{
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.handle{
+    border-radius: 6px;
+    height: 30px;
+    width: 80px;
+}

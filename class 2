@@ -1,0 +1,546 @@
+const on = document.getElementById('yes');
+const off = document.getElementById('no');
+const bulb = document.getElementById('bulb');
+
+on.addEventListener('click', ()=>{
+  bulb.src="./bulbOn.gif"
+});
+
+off.addEventListener('click', ()=>{
+  bulb.src="./bulbOff.gif"
+});
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./index.css" />
+  <link
+   href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+   rel="stylesheet"
+  />
+  <title>nike</title>
+ </head>
+ <body>
+  <header class="Header">
+   <div class="up">
+    <section class="section">
+     <nav class="first-nav">
+      Find a Store
+      <hr />
+     </nav>
+
+     <nav class="second-nav">
+      Help
+      <hr />
+     </nav>
+
+     <nav class="third-nav">
+      Join Us
+      <hr />
+     </nav>
+
+     <nav class="fourth-nav">Sign In</nav>
+    </section>
+   </div>
+   <div class="center">
+    <div class="Inside-center">
+     <div class="Image-holder">
+      <img class="Image-1" src="./assets/nike/img5.png" alt="" />
+     </div>
+     <div class="Middle-Writing">
+      <p class="Middle-Writing-text">Find a Store</p>
+      <p class="Middle-Writing-text">About Us</p>
+     </div>
+    </div>
+   </div>
+   <div class="bottom"></div>
+  </header>
+
+  <section class="First-Image-Section-holder">
+   <div class="Image-Section">
+    <!-- <img src="./assets/nike/img4.png" alt="" /> -->
+   </div>
+  </section>
+
+  <section class="Perfect-Running-shoe-holder">
+   <div class="Perfect-Running-shoe">
+    <p class="text-2">FIND YOUR PERFECT RUNNING SHOE</p>
+    <button class="Button-1">Find a Store</button>
+   </div>
+  </section>
+
+  <section class="Evolution-holder">
+   <div class="Evolution">
+    <div class="Overlay">
+     <p>DISCOVER THE EVOLUTION OF AIR</p>
+     <button class="Button-2">Find a Store</button>
+    </div>
+   </div>
+  </section>
+
+  <section class="Runners-holder">
+   <div class="Runners">
+    <div class="Left-runner"></div>
+    <div class="Right-runner"></div>
+   </div>
+  </section>
+
+  <section class="Plans-holder">
+   <div class="Plans">
+    <div class="Left-Plan">
+     <p class="Text-3">Flexible Training Plans Tailored To You</p>
+     <p class="Text-4">
+      With NTC, You get access to over 190 free workouts across strength,
+      endurance, yoga and mobility.
+     </p>
+
+     <div class="Download-Holder">
+      <button class="Plan-button-1">Download iOS</button
+      ><button class="Plan-button-1">Download Andriod</button>
+     </div>
+    </div>
+    <div class="Right-Plan">
+     <p class="Text-3">Flexible Training Plans Tailored To You</p>
+     <p class="Text-4">
+      The Nike Run Club gives you the guidance, inspiration and innovation you
+      need to become a better athlete. Join us to reach your goals and have fun
+      along the way.
+     </p>
+
+     <div class="Download-Holder">
+      <button class="Plan-button-1">Download iOS</button
+      ><button class="Plan-button-1">Download Andriod</button>
+     </div>
+    </div>
+   </div>
+
+   <hr class="HR2" />
+  </section>
+
+  <footer class="Footer-holder">
+   <div class="Footer">
+    <div class="Upper-footer">
+     <div class="first-upper">
+      <p class="Text-5">Resources</p>
+
+      <div class="Inner-Upper">
+       <a class="Anchor-1" href="">Find a Store</a>
+      </div>
+     </div>
+     <div class="second-upper">
+      <p class="Text-5">Help</p>
+      <div class="Inner-Upper">
+       <a class="Anchor-1" href="">Get help</a>
+       <a class="Anchor-1" href="">Returns</a>
+       <a class="Anchor-1" href="">Contact Us</a>
+      </div>
+     </div>
+     <div class="third-upper">
+      <p class="Text-5">Company</p>
+      <div class="Inner-Upper">
+       <a class="Anchor-1" href="">About Nike</a>
+       <a class="Anchor-1" href="">News</a>
+       <a class="Anchor-1" href="">Careers</a>
+       <a class="Anchor-1" href="">Investors</a>
+       <a class="Anchor-1" href="">Sustainability</a>
+      </div>
+     </div>
+     <div class="fourth-upper">
+      <p class="Text-5">Egypt</p>
+     </div>
+    </div>
+    <div class="Lower-footer">
+     <div>2025 Nike, Inc. All rights reserved</div>
+     <div>Terms of Use</div>
+     <div>Privacy & Cookie Policy</div>
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>
+
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+body {
+ /* background-color: blue; */
+ width: 100vw;
+ height: 100%;
+ font-family: 'Roboto', sans-serif;
+}
+.Header {
+ height: 120px;
+ width: 100%;
+ /* background-color: chartreuse; */
+ position: fixed;
+}
+.up {
+ height: 20%;
+ width: 100%;
+ background-color: #f5f5f5;
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+ padding-right: 20px;
+}
+.center {
+ height: 40%;
+ width: 100%;
+ background-color: #fff;
+ display: flex;
+ /* justify-content: center;
+ align-items: center; */
+}
+.Inside-center {
+ width: 55%;
+ height: 100%;
+ /* background-color: #9acd32; */
+ margin-left: 60px;
+ display: flex;
+ justify-content: space-between;
+}
+.bottom {
+ height: 40%;
+ width: 100%;
+ background-color: #f5f5f5;
+}
+.section {
+ height: 100%;
+ width: 20%;
+ /* background-color: brown; */
+ display: flex;
+ justify-content: space-between;
+ /* gap: 5px; */
+}
+.Image-holder {
+ width: 10%;
+ height: 100%;
+ /* background-color: #f11717; */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.Image-1 {
+ width: 100%;
+ /* height: 100px; */
+}
+.Middle-Writing {
+ width: 30%;
+ height: 100%;
+ /* background-color: #c70707; */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+}
+.Middle-Writing-text {
+ font-size: 15px;
+ font-weight: bold;
+}
+.first-nav {
+ height: 100%;
+ width: 35%;
+ /* background-color: #670fd2; */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 11px;
+ font-weight: bold;
+ gap: 10px;
+}
+.second-nav {
+ height: 100%;
+ width: 20%;
+ /* background-color: #0bc9df; */
+ font-size: 11px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-weight: bold;
+ gap: 10px;
+}
+hr {
+ height: 10px;
+ color: black;
+ /* font-weight: 500; */
+ /* width: 2px; */
+}
+.third-nav {
+ height: 100%;
+ width: 25%;
+ /* background-color: #2d2533; */
+ font-size: 11px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-weight: 500;
+ gap: 10px;
+ font-weight: bold;
+}
+.fourth-nav {
+ height: 100%;
+ width: 25%;
+ /* background-color: #48d610; */
+ font-size: 11px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-weight: 500;
+ font-weight: bold;
+}
+.First-Image-Section-holder {
+ width: 100%;
+ height: 100vh;
+ /* background-color: cadetblue; */
+ display: flex;
+ justify-content: center;
+ /* align-items: center; */
+}
+.Image-Section {
+ width: 90%;
+ height: 95%;
+ background-color: black;
+ background-image: url('./assets/nike/image.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.Perfect-Running-shoe-holder {
+ width: 100%;
+ height: 18rem;
+ /* background-color: aqua; */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.Perfect-Running-shoe {
+ width: 60%;
+ height: 80%;
+ /* background-color: blue; */
+ text-align: center;
+}
+.text-2 {
+ font-size: 70px;
+ font-weight: bold;
+ letter-spacing: -8px;
+}
+.Button-1 {
+ width: 130px;
+ height: 40px;
+ background-color: #000;
+ border-radius: 20px;
+ color: #fff;
+ border-style: none;
+ margin-top: 10px;
+}
+.Evolution-holder {
+ width: 100%;
+ height: 35rem;
+ /* background-color: #e63a3a; */
+ display: flex;
+ justify-content: center;
+ /* align-items: center; */
+}
+.Evolution {
+ width: 90%;
+ height: 95%;
+ /* background-color: burlywood; */
+ background-image: url('./assets//nike/img3.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.Overlay {
+ width: 80%;
+ height: 40%;
+ color: #fff;
+ font-size: 70px;
+ margin: 50px;
+ font-weight: bold;
+ letter-spacing: -8px;
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ /* font-weight: bold; */
+}
+.Button-2 {
+ width: 130px;
+ height: 40px;
+ background-color: #fff;
+ border-radius: 20px;
+ color: #000;
+ border-style: none;
+ /* margin-top: 10px; */
+}
+.Runners-holder {
+ width: 100%;
+ height: 40rem;
+ /* background-color: blueviolet; */
+ margin-top: 70px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.Runners {
+ width: 90%;
+ height: 100%;
+ /* background-color: burlywood; */
+ display: flex;
+ justify-content: center;
+ gap: 10px;
+ /* align-items: center; */
+}
+.Left-runner {
+ width: 50%;
+ height: 100%;
+ /* background-color: #e63a3a; */
+ background-image: url('./assets//nike/img2.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.Right-runner {
+ width: 50%;
+ height: 100%;
+ background-color: #ade63a;
+ background-image: url('./assets//nike/img1.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.Plans-holder {
+ width: 100%;
+ height: 18rem;
+ /* background-color: aqua; */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+.Plans {
+ width: 90%;
+ height: 90%;
+ /* background-color: #e63a3a; */
+ margin-top: 30px;
+ display: flex;
+ gap: 20px;
+}
+.Left-Plan {
+ width: 50%;
+ height: 100%;
+ /* background-color: blue; */
+}
+.Right-Plan {
+ width: 50%;
+ height: 100%;
+ /* background-color: #ffff00; */
+}
+.Text-3 {
+ font-size: 22px;
+ font-weight: bold;
+}
+.Text-4 {
+ font-size: 17px;
+ margin-top: 15px;
+}
+.Download-Holder {
+ width: 62%;
+ height: 20%;
+ /* background-color: #e63a3a; */
+ margin-top: 30px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.Plan-button-1 {
+ width: 170px;
+ height: 40px;
+ background-color: #000;
+ border-radius: 20px;
+ color: #fff;
+ border-style: none;
+ font-weight: bold;
+}
+
+:hover .Plan-button-1 {
+ cursor: pointer;
+}
+.HR2 {
+ width: 90%;
+ height: 0px;
+}
+.Footer-holder {
+ width: 100%;
+ height: 28rem;
+ /* background-color: #e63a3a; */
+ margin-top: 60px;
+ display: flex;
+ justify-content: center;
+ /* align-items: center; */
+}
+.Footer {
+ width: 90%;
+ height: 100%;
+ /* background-color: aqua; */
+}
+.Upper-footer {
+ width: 100%;
+ height: 70%;
+ /* background-color: #5a28ce; */
+ display: flex;
+ justify-content: space-between;
+}
+.Lower-footer {
+ width: 100%;
+ height: 30%;
+ /* background-color: #ce2865; */
+ display: flex;
+ gap: 20px;
+ font-size: 15px;
+ color: grey;
+}
+.first-upper {
+ width: 23%;
+ height: 90%;
+ /* background-color: antiquewhite; */
+}
+.second-upper {
+ width: 23%;
+ height: 90%;
+ /* background-color: antiquewhite; */
+}
+.third-upper {
+ width: 23%;
+ height: 90%;
+ /* background-color: antiquewhite; */
+}
+.fourth-upper {
+ width: 23%;
+ height: 90%;
+ /* background-color: antiquewhite; */
+ display: flex;
+ justify-content: flex-end;
+}
+.Text-5 {
+ font-size: 14px;
+ font-weight: 500;
+ color: #000;
+}
+.Inner-Upper {
+ width: 50%;
+ height: 60%;
+ /* background-color: #c95d1a; */
+ margin-top: 50px;
+ display: flex;
+ /* justify-content: center; */
+ /* align-items: center; */
+ flex-direction: column;
+ gap: 20px;
+}
+.Anchor-1 {
+ font-size: 15px;
+ color: grey;
+ text-decoration: none;
+}
+/* ::hover Anchor-1 {
+ text-decoration: underline;
+} */
