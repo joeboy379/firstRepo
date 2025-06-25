@@ -1,7 +1,8 @@
 const on = document.getElementById('yes');
 const off = document.getElementById('no');
 const bulb = document.getElementById('bulb');
-const alarm = document.getElementById('alarmSound');
+const bulb = document.getElementById('bulbOff');
+const alarm = document.getElementById('alarmer1');
 
 let message = document.getElementById('statusMessage');
 
